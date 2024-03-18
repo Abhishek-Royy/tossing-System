@@ -19,7 +19,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(81, 255, 156);
+    background-color: rgb(221, 134, 255);
     flex-direction: column;
 }
 
@@ -37,8 +37,7 @@ main {
 
 h1 {
     text-align: center;
-    position: fixed;
-    top: 150px;
+
 }
 
 h2 {
@@ -87,13 +86,17 @@ button:active {
     scale: 0.95;
 }
 
+footer {
+    margin-top: 15px;
+    font-weight: bold
+}
 
 @media screen and (max-width: 600px) {
     .container {
         width: 90%;
         height: auto;
         max-width: 350px;
-        max-height: 450px;
+        max-height: 800px;
     }
 
     button {
